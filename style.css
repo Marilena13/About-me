@@ -65,9 +65,18 @@ ul li {
   margin-bottom: 0.5rem;
 }
 
-img {
-  hight: 3rem;
-  weight: 3rem;
+.logo-list {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;                
+    list-style: none;         
+    padding: 0;               
+}
+
+.logo-list img {
+    width: 30px;
+    height: auto;
 }
 
 /* Links */
