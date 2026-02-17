@@ -108,6 +108,20 @@ BioGem – Life & Mind Science School
 
 ---
 
+## Selected Project Impact
+
+• Acted as primary functional reference in complex client environments, ensuring requirement clarity and reducing ambiguity across business and IT teams.
+
+• Led requirement elicitation workshops in finance projects (banking, insurance, payments), aligning multi-stakeholder expectations and translating strategic needs into structured specifications.
+
+• Supported process reengineering initiatives by identifying inefficiencies in As-Is flows and proposing To-Be solutions, including automation opportunities and legacy system rationalization.
+
+• Coordinated cross-functional development teams (FE, BE, Mobile) during release cycles, validating interface agreements and ensuring alignment between functional design and technical implementation.
+
+• Contributed to governance and decision-making processes through structured documentation, milestone tracking and stakeholder reporting in international consulting contexts.
+
+---
+
 ## What You’ll Find on My GitHub
 
 - Business Analysis templates  
