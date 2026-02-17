@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  background: linear-gradient(135deg, #1c1f41, #ab1773);
   background-size: 400% 400%;
   animation: gradientAnimation 15s ease infinite;
   color: #fff;
@@ -71,7 +71,9 @@ a:hover {
 
 /* Footer */
 footer {
-  background-color: #1e3a8a;
+    background: linear-gradient(135deg, #1c1f41, #ab1773);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
   color: #fff;
   text-align: center;
   padding: 1rem;
