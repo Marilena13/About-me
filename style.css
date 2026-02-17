@@ -18,9 +18,21 @@ header {
   padding: 2rem 1rem;
 }
 
-header img {
-  width: auto;
-  height: 4rem;
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logotech {
+    width: 60px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logotech:hover {
+    transform: scale(1.1);
 }
 
 header h1 {
