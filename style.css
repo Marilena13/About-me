@@ -42,11 +42,17 @@ section {
 }
 
 h2 {
-  color: #1e3a8a;
+  color: #1c1f41;
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
   border-bottom: 2px solid #1e3a8a;
   padding-bottom: 0.2rem;
+}
+
+h3 {
+  color: #1c1f41;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Lists */
@@ -57,6 +63,11 @@ ul {
 
 ul li {
   margin-bottom: 0.5rem;
+}
+
+img {
+  hight: 3rem;
+  weight: 3rem;
 }
 
 /* Links */
