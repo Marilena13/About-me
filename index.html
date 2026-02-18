@@ -6,6 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me – Senior Business Analyst</title>
 </head>
+<script>
+  // Navbar blur on scroll
+  window.addEventListener("scroll", function() {
+    document.querySelector(".navbar")
+      .classList.toggle("scrolled", window.scrollY > 50);
+  });
+
+  // Fade in automatico per tutte le sezioni
+  const elements = document.querySelectorAll("section, .card");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("visible");
+    });
+  }, { threshold: 0.15 });
+
+  elements.forEach(el => {
+    el.classList.add("fade-in");
+    observer.observe(el);
+  });
+</script>
 <body>
 <header>
   <div class="header-top">
@@ -14,7 +36,7 @@
      </a>
     <h1>Marilena Agostino</h1>
   </div>
-  <p>IT Business Analyst | Finance & IT Consulting</p>
+  <p>IT Business Analyst | IT Consulting</p>
 </header>
   <main>
     <section>
