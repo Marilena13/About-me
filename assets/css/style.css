@@ -47,6 +47,7 @@ header::after {
   top: -300px;
   right: -250px;
   z-index: 0;
+  pointer-events: none; 
 }
 
 /* Layout */
@@ -103,7 +104,7 @@ section {
 }
 
 /* divider line */
-section::after {
+  section::after {
   content: "";
   position: absolute;
   bottom: -55px;
@@ -147,6 +148,28 @@ h3 {
   letter-spacing: 0.8px;
 }
 
+
+.btn-primary {
+  display: inline-block; 
+  padding: 14px 38px;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #cb6ce6;
+  color: #cb6ce6;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+  z-index: 2;
+}
+
+.btn-primary:hover {
+  background: #cb6ce6;
+  color: #0c081c;
+  box-shadow: 0 0 25px rgba(203,108,230,0.4);
+}
+
 /* ======
    TEXT
 ======= */
@@ -182,7 +205,7 @@ a {
   position: relative;
 }
 
-a::after {
+a:not(.btn-primary)::after {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -193,7 +216,7 @@ a::after {
   transition: 0.3s ease;
 }
 
-a:hover::after {
+a:not(.btn-primary):hover::after {
   width: 100%;
 }
 
